@@ -1,0 +1,1448 @@
+:root {
+    --bg-color: #21262D;
+    --bg-color-1: #13131F;
+    --bg-color-2: #21262D;
+    --bg-color-3: #282F3A;
+    --secondary-color: #CECECE;
+    --primary-color: #F68B1F;
+    --primary-font: "evil";
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    font-family: "poppins";
+    color: var(--bs-white);
+}
+
+.navbar-togglar {
+    display: none;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu {
+    background-color: var(--bg-color-1);
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu .nav .nav-item a {
+    color: var(--bs-white);
+}
+
+.menu .nav .nav-item i {
+    font-size: 12px;
+}
+
+.carousel-inner p {
+    font-size: 20px;
+    color: var(--bs-white);
+    font-weight: 300;
+}
+
+.btn {
+    border: 2px solid var(--bs-white);
+    border-radius: 5px;
+    color: var(--bs-white) !important;
+    background-color: transparent;
+    font-size: 14PX;
+    width: 150px;
+    height: 45px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.btn1 {
+    background-color: var(--primary-color);
+    border: 2px solid var(--bs-white);
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--bs-white);
+    font-size: 14PX;
+    width: 150px;
+    height: 45px;
+}
+
+.slide-height {
+    height: 80vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--bs-white);
+    font-size: 50px;
+    font-family: var(--primary-font);
+}
+
+h2 {
+    color: var(--bs-white);
+    font-family: var(--primary-font);
+}
+
+h3 {
+    color: var(--bs-white);
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+h6 {
+    margin-bottom: 0 !important;
+}
+
+
+p {
+    color: var(--bs-white);
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*-------------------------------------------- header -------------------------------------------- */
+
+/* ------------------------------------------------------sub-menu-page */
+
+.sub-menu {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 35px;
+    top: 100%;
+    transition: .5s ease-in-out;
+    width: 55%;
+    opacity: 0;
+    visibility: hidden;
+    right: 125px;
+    border-top: 2px solid var(--primary-color);
+}
+
+.menu ul li .sub-hover:hover {
+    color: var(--primary-color);
+}
+
+.nav li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu .top-team .border-box {
+    background-color: var(--bg-color-3);
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+.sub-menu .top-team .border-box .menu-image-hover {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.sub-menu .top-team .border-box img {
+    transition: all .5s;
+}
+
+.sub-menu .top-team .border-box img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.sub-menu .top-team h3 a {
+    transition: .5s ease-in-out;
+}
+
+.sub-menu .top-team h3 a:hover {
+    color: var(--primary-color);
+}
+
+/* ---------------------------------------------------------sub-menu-esport */
+
+.sub-menu-1 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 275px;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    transition: .5s ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+
+.menu ul li .sub-hover:hover {
+    color: var(--primary-color);
+}
+
+.nav li:hover .sub-menu-1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-1 ul li a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* -----------------------------------------------------------------sub-menu-blog */
+
+.sub-menu-2 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 175px;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    transition: .5s ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+
+.nav li:hover .sub-menu-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-2 ul li a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* ------------------------------------------------------------sub-menu-shop */
+
+.sub-menu-3 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 25px;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+
+.nav li:hover .sub-menu-3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*-------------------------------------------- section2 -------------------------------------------- */
+
+.top-game {
+    background-color: var(--bg-color-3);
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: all .5s;
+}
+
+.image {
+    box-shadow: 11px 12px 21px -7px rgba(0, 0, 0, 0.5);
+}
+
+.image img:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.heading-box {
+    background-color: var(--bg-color-3);
+}
+
+.focus-bg {
+    background-image: url(../image/21.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    background-position: center;
+}
+
+.focus-bg .focus-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.focus-bg .focus-title .sub-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+.focus-bg .focus-title .title {
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+.blog-post {
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--bg-color-3);
+}
+
+.focus-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.focus-img img {
+    transition: all .5s;
+
+}
+
+.focus-img img:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.focus-content {
+    padding: 10px 10px;
+}
+
+.blog-title {
+    font-size: 20px;
+    color: #dedede;
+}
+
+.focus-content p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #a7a7a7;
+    line-height: 28px;
+}
+
+.focus-content a {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.focus-content a::after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    width: 0;
+    transition: .5s all ease-in-out;
+    background-color: var(--primary-color);
+}
+
+.focus-content a:hover::after {
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.focus-content h3 {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.focus-content a:hover {
+    color: var(--primary-color);
+}
+
+.focus-content h3:hover {
+    color: var(--primary-color);
+}
+
+.team-score {
+    background-color: var(--bg-color-3);
+}
+
+.recent-team {
+    background-color: var(--bg-color-3);
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.title2 span {
+    color: #f68b1f;
+}
+
+/*-------------------------------------------- section3 -------------------------------------------- */
+
+
+.tips-content h3 {
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.tips-bg {
+    background-image: url(../image/1.png);
+    max-width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.trick-img {
+    padding: 50px 80px 50px 50px;
+}
+
+.trick-img .tp-img {
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 59.7%;
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    cursor: pointer;
+}
+
+.trick-img .tp-img::after {
+    content: '';
+    background-image: url(../image/play.png);
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.game-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.star-c {
+    color: var(--primary-color);
+}
+
+.img1 {
+    background-image: url(../image/13.jpg);
+    height: 247px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tips-content a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px !important;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sub-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f68b1f;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.title2 span {
+    color: #f68b1f;
+}
+
+.tips-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #c4c4c4;
+}
+
+.title1 {
+    text-transform: uppercase;
+    color: #dedede;
+    font-size: 50px;
+}
+
+.title span {
+    color: #f68b1f;
+}
+
+.blog-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #dedede;
+}
+
+.title p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #dedede;
+}
+
+/*-------------------------------------------- section4 -------------------------------------------- */
+
+.clan-2 {
+    background: #282F3A;
+    padding: 42px !important;
+}
+
+.part-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.latest-game {
+    padding: 18px 20px;
+    border-bottom: 2px solid #000000;
+    background-color: #282F3A;
+}
+
+.latest-over {
+    border: none;
+}
+
+.latest-game span {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.clan-time {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vs-fire {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50% !important;
+    background-color: #F68B1F;
+    width: 40px;
+    height: 40px;
+}
+
+.loader3 {
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.loader3 span {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: #F68B1F;
+    -webkit-animation: loader3 1.5s linear infinite;
+    animation: loader3 1.5s linear infinite;
+}
+
+.loader3 span:last-child {
+    animation-delay: -0.9s;
+    -webkit-animation-delay: -0.9s;
+}
+
+@keyframes loader3 {
+    0% {
+        transform: scale(0, 0);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes loader3 {
+    0% {
+        -webkit-transform: scale(0, 0);
+        opacity: 0.8;
+    }
+
+    100% {
+        -webkit-transform: scale(1, 1);
+        opacity: 0;
+    }
+}
+
+/*-------------------------------------------- section5 -------------------------------------------- */
+
+.product {
+    background-color: var(--bg-color-1);
+}
+
+.product-bg-color {
+    background-color: var(--bg-color-3);
+    margin-bottom: 24px;
+}
+
+.product-bg-color .product-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.product-bg-color .product-image img {
+    transition: .5s all;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.product-bg-color .product-image img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.product-bg-color .cnt {
+    padding-left: 40px;
+}
+
+.product-bg-color .cnt p {
+    color: var(--secondary-color);
+}
+
+.product-bg-color a {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.product-bg-color a::after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    width: 0;
+    transition: .5s all ease-in-out;
+    background-color: var(--primary-color);
+}
+
+.product-bg-color a:hover::after {
+    height: 1px;
+    width: 100%;
+}
+
+.product-bg-color .cnt h3 {
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.product-bg-color .cnt h3:hover {
+    color: var(--primary-color);
+}
+
+/*-------------------------------------------- section6 -------------------------------------------- */
+
+.game .game-box {
+    background-color: #1A1C20;
+    transition: .7s ease-in-out;
+}
+
+.game .game-box:hover {
+    background-color: #4D4C4C;
+}
+
+/*-------------------------------------------- section8 -------------------------------------------- */
+
+.home-work {
+    background-color: var(--bg-color-1);
+}
+
+.home-work p {
+    color: var(--secondary-color);
+}
+
+.home-work .first-box {
+    background-color: var(--bg-color-3);
+    padding: 50px 70px;
+}
+
+.home-work .second-box {
+    padding: 50px 70px;
+    background-color: var(--bg-color-2);
+}
+
+.home-work .icon {
+    font-size: 60px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.home-work h3 {
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.home-work .first-box:hover h3 {
+    color: var(--primary-color);
+}
+
+.home-work .first-box:hover .icon {
+    color: var(--primary-color);
+}
+
+.home-work .second-box:hover h3 {
+    color: var(--primary-color);
+}
+
+.home-work .second-box:hover .icon {
+    color: var(--primary-color);
+}
+
+.footer-bg {
+    background: #0b0d14;
+}
+
+.footer-bg p {
+    color: var(--secondary-color);
+    width: 90%;
+}
+
+.fb-bg {
+    background-image: url(../image/2.png);
+}
+
+.in-bg {
+    background-image: url(../image/3.png);
+}
+
+.tw-bg {
+    background-image: url(../image/4.png);
+}
+
+.go-bg {
+    background-image: url(../image/5.png);
+}
+
+.footer-link li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.userlink {
+    margin-right: 30px;
+}
+
+
+.userlink>.nth-uselink {
+    border-bottom: 0px;
+}
+
+.userlink li {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #262626;
+}
+
+.userlink li>a:hover {
+    color: var(--primary-color);
+}
+
+.userlink li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    line-height: 44px;
+}
+
+.email {
+    display: block;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #262626;
+    font-size: 16px;
+    color: #fff;
+}
+
+.Message {
+    display: block;
+    padding: 35px 15px;
+    background: transparent;
+    border: 1px solid #262626;
+    font-size: 16px;
+    color: #fff;
+}
+
+.fo-btn {
+    padding: 14px 25px;
+    background: #f68b1f;
+    display: inline-block;
+    border: none;
+    line-height: 17px;
+    color: #fff;
+}
+
+/*---------------------------------------------------- page-subpage-killerwale */
+
+.banner-bg-img {
+    background: url(../image/killer.jpg);
+    height: 52vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.banner-bg-img .team-img {
+    top: 23%;
+}
+
+.banner-bg-img .team-img-1 {
+    top: 22%;
+}
+
+.banner-bg-img .team-img-1 img {
+    width: 80%;
+}
+
+.banner-bg-img .team-cnt {
+    padding: 170px 0 0 80px;
+}
+
+.banner-bg-img .team-cnt h1 {
+    font-style: 50px !important;
+}
+
+.count-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.count-color {
+    color: var(--primary-color);
+}
+
+@media (max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+.history-h2-color {
+    color: var(--primary-color);
+}
+
+.history-data p {
+    color: var(--secondary-color);
+    width: 90%;
+}
+
+.history-subcnt {
+    background-color: var(--bg-color-3);
+    padding: 29px 5px;
+}
+
+.killer-bg-img {
+    background: url(../image/killerteam.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.player-frame {
+    width: 20%;
+}
+
+.player-data {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-color-3);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.player-img img {
+    width: 100%;
+}
+
+.player-img-1 img {
+    width: 100%;
+}
+
+.player-cnt p {
+    color: var(--secondary-color);
+}
+
+.player-data:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(246, 139, 31, 0.89);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    transition: 0.5s ease-in-out;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+
+.player-data:hover::after {
+    transform: scaleY(1);
+}
+
+.player-data .player-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%) scaleY(0);
+    transform: translate(-50%) scaleY(0);
+    color: var(--bs-white);
+    width: 100%;
+    transition: 0.5s;
+}
+
+.player-data .player-social a i {
+    color: var(--bs-white);
+}
+
+.player-data:hover .player-social {
+    transform: translate(-50%) scale(1);
+}
+
+/*------------------------------------------------------------------- blog-subpage-news --------------------------------*/
+
+.banner-bg-img-1 {
+    background: url(../image/Rectangle\ 689.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.news-img {
+    background-image: url(../image/post-41.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.news-btn {
+    background-color: #414958;
+    border: 1px solid #505a6d;
+}
+
+.news-img1 {
+    background-image: url(../image/post-31.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+
+.news-img2 {
+    background-image: url(../image/post-51.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+
+.pakage-game {
+    background-color: #13131F;
+}
+
+.package-post {
+    overflow: hidden;
+    background: #282F3A;
+}
+
+.package-img {
+    overflow: hidden;
+    height: 200px;
+}
+
+.pac-btn {
+    background-color: #414958;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.star-c {
+    color: #f68b1f;
+}
+
+.pa-width {
+    width: 80%;
+    color: var(--secondary-color);
+}
+
+/* ----------------------------------------------------------------Blog-subpage-team */
+
+.clan-team-card {
+    background-color: var(--bg-color-3);
+}
+
+.clan-bg {
+    background-image: url(../image/bg-menu\ 1.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-size {
+    height: 75vh;
+}
+
+.clan-heading img {
+    width: 68%;
+}
+
+/*----------------------------------------------------------- blog-subpage-bloglist */
+
+.b-list {
+    background-color: #1A1C20;
+    padding: 20px;
+}
+
+.blist-btn {
+    background-color: #414958;
+    border: 1px solid #505a6d;
+}
+
+.b-para {
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: light;
+}
+
+.blist-ti {
+    font-size: 14px;
+    color: #cecece;
+}
+
+/*-------------------------------- b-list end  ----------------------------------*/
+
+/*-------------------------------- leave start  ----------------------------------*/
+.leave-bg {
+    background-color: #13131F;
+}
+
+/*-------------------------------- leave end  ----------------------------------*/
+.sub-title-img {
+    background: url(../images/Rectangle\ 150.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+/* -----------------------------------------------------------------------shop-subpage-cart */
+
+.banner-bg-img-2 {
+    background: url(../image/12\ 1.png);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.cart-data .line {
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.empty-data {
+    background-color: var(--bg-color-3);
+}
+
+.empty-data .round-design {
+    background-color: transparent;
+    border-radius: 50px;
+    width: 40px;
+    color: #22A2B1;
+    border: 3px solid #22A2B1;
+}
+
+.empty-cnt {
+    color: #22A2B1;
+    padding-top: 8px;
+    margin-left: -40px;
+}
+
+.empty-btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+}
+
+.empty-btn a {
+    color: var(--bs-white);
+}
+
+/* -----------------------------------------------------------------esport-subpage-game */
+
+.game-card {
+    background-color: var(--bg-color-3);
+}
+
+
+.clan-bg-1 p {
+    color: var(--secondary-color);
+}
+
+/* ----------------------------------------------------------------------esport-subpage-matches */
+
+.match-data-bg {
+    background-color: var(--bg-color-3);
+}
+
+.match-data-bg p {
+    color: var(--secondary-color);
+}
+
+.match-data-bg .team-img {
+    width: 100px;
+    background-color: var(--bg-color-1);
+    height: 100px;
+}
+
+.match-data-bg .team-img img {
+    width: 100%;
+}
+
+.match-data-bg .vs-cnt h5 {
+    background-color: var(--bg-color-1);
+}
+
+.match-data-bg .team-name h4 {
+    color: var(--bs-white);
+}
+
+.img-height img {
+    height: 35vh;
+}
+
+.b-list {
+    background-color: #1A1C20;
+    padding: 20px;
+}
+
+.blist-btn {
+    background-color: #414958;
+    border: 1px solid #505a6d;
+}
+
+.b-para {
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: light;
+}
+
+.blist-ti {
+    font-size: 14px;
+    color: #cecece;
+}
+
+/*-------------------------------- b-list end  ----------------------------------*/
+
+/*-------------------------------- leave start  ----------------------------------*/
+.leave-bg {
+    background-color: #13131F;
+}
+
+.leave-btn {
+    background-color: #EB3154;
+    border: 2px solid #EE526F;
+    font-size: 14px;
+}
+
+/*-------------------------------- leave end  ----------------------------------*/
+.sub-title-img {
+    background: url(../image/Rectangle\ 150.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+/* --------------------------------------------------------------shop-subpage-catlog */
+.cata {
+    list-style: none;
+}
+
+.cat-img {
+    width: 200px;
+    height: 250px;
+}
+
+.cata-p {
+    color: #cecece;
+    line-height: 28px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.cata-content {
+    margin-left: 30px;
+}
+
+.action-bg {
+    background-image: url(../image/Rectangle\ 184.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.action-content {
+    background-color: #1A1C20;
+    width: 30%;
+    padding: 30px;
+    left: 81%;
+}
+
+/* ----------------------------------------------------------------------------loader */
+.loader {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.preloader {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: transparent;
+    background-image: url(https://html.nkdev.info/godlike/assets/images/preloader-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100000;
+    background-position: 100% 0%;
+}
+
+/*------------------------------------------------------------------- banner button css */
+
+.button {
+    -webkit-tap-highlight-color: transparent;
+    border: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 10px 30px;
+    position: relative;
+    width: 150px;
+}
+
+.button--white {
+    color: white;
+}
+
+.pattern {
+    background: var(--primary-color);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.bg1 {
+    background: url(../image/download.png);
+}
+
+.inner {
+    height: 100px;
+    width: 400px;
+}
+
+.text {
+    position: relative;
+    opacity: .7;
+}
+
+.target {
+    transform: translate(var(--x), var(--y));
+}
+
+.button:active .target {
+    opacity: 0.7;
+    transition: opacity 100ms;
+}
+
+/* ------------------------------------------------------------------------------button css hover */
+.buttonfx {
+    color: var(--bs-white);
+    outline: none;
+    background: transparent;
+    border: none;
+    border: 2px solid #eee;
+    letter-spacing: 0.0625em;
+    padding: 8px 30px;
+    line-height: 2;
+    width: auto;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all .5s;
+    margin-top: 20px;
+}
+
+.buttonfx1 {
+    width: 50%;
+}
+
+.buttonfx2 {
+    height: 50px;
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    background-color: #414958;
+    border-radius: 5px;
+}
+
+.buttonfx2 {
+    height: 50px;
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    background-color: #414958;
+    border-radius: 5px;
+}
+
+.buttonfx3 {
+    background-color: #EB3154;
+    width: 190px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonfx4 {
+    background-color: #EB3154;
+    width: 190px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonfx:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100px;
+    background-color: var(--primary-color);
+    z-index: -99;
+    transform: translate3D(0, -100%, 0);
+}
+
+.buttonfx3:after {
+    background-color: var(--secondary-color);
+}
+
+.buttonfx4:after {
+    background-color: var(--secondary-color);
+}
+
+.buttonfx3:hover {
+    color: var(--bg-color-1);
+}
+
+.buttonfx4:hover {
+    color: var(--bg-color-1) !important;
+}
+
+.buttonfx:hover {
+    color: white;
+}
+
+.buttonfx:hover:after {
+    transform: translate3D(0, 0, 0);
+    transition: all .5s;
+}
+
+.angleinleft:after {
+    width: 120%;
+    transform-origin: 0 bottom;
+    transform: translate3D(-50%, 0, 0) rotate(-50deg);
+}
+
+.angleinleft:hover:after {
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+
+.bouncein:hover:before,
+.bouncein:hover:after {
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66) !important;
+}
